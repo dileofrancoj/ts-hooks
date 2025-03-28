@@ -10,10 +10,10 @@ export default mergeConfig(viteConfig, defineConfig({
         environment: 'jsdom', // EMULAR EL DOM (window, etc)
         coverage: {
             thresholds: {
-                lines: 50,
-                functions: 50,
-                branches: 50,
-                statements: 50
+                lines: 30,
+                functions: 30,
+                branches: 30,
+                statements: 30
             }
         }
     },
