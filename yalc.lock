@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "lvlup-utils": {
+      "version": "0.0.1",
+      "signature": "0f7cad474693348ae5134affe8f989a1",
+      "file": true
+    }
+  }
+}

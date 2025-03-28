@@ -1,0 +1,29 @@
+{
+  "name": "lvlup-utils",
+  "version": "0.0.1",
+  "type": "module",
+  "typings": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/lvlup-utils.js",
+      "require": "./dist/lvlup-utils.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "rm -rf dist && tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts --ignore-pattern dist/",
+    "lint:fix": "npm run lint --fix",
+    "test": "vitest run --coverage",
+    "test:watch": "vitest --watch",
+    "check:types": "tsc --noEmit"
+  },
+  "yalcSig": "0f7cad474693348ae5134affe8f989a1"
+}
