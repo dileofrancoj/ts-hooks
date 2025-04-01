@@ -53,6 +53,6 @@
     "react-dom": "^18.3.1"
   },
   "dependencies": {
-    "lvlup-utils": "file:.yalc/lvlup-utils"
+    "lvlup-utils": "^0.0.2"
   }
 }
