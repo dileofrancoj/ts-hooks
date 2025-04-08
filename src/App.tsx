@@ -23,7 +23,7 @@ function App() {
       throttle bro 
     </button>
     <div style={{marginTop:'1000px'}}></div>
-    <DemoComponent componentName='DemoComponent' />
+    <DemoComponent />
     </>
   )
 }

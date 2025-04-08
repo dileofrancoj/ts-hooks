@@ -9,4 +9,4 @@ const Component = () => {
     )
 }
 
-export const DemoComponent = withTracking(Component)
+export const DemoComponent = withTracking(Component) // Component con nueva funcionalidad

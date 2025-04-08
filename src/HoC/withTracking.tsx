@@ -31,7 +31,7 @@ export const withTracking = <P extends Props>(BaseComponent: React.FC<P>) => {
         }, [isVisible])
         return (
             <div ref={ref}>
-                <BaseComponent {...props}/>
+                <BaseComponent {...props} newProp={true}/>
             </div>
         )
     }
