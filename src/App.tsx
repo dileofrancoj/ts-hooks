@@ -1,5 +1,6 @@
 import './App.css'
 
+import { DemoComponent } from './Components/DemoComponent'
 import { useCounter } from './hooks/useCounter'
 import { useThrottle } from './hooks/useThrottle'
 import { useWindowsResize } from './hooks/windowsResize'
@@ -21,6 +22,8 @@ function App() {
     <button type="button" onClick={onClick}>
       throttle bro 
     </button>
+    <div style={{marginTop:'1000px'}}></div>
+    <DemoComponent componentName='DemoComponent' />
     </>
   )
 }

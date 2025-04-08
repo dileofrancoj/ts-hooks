@@ -53,6 +53,7 @@
     "react-dom": "^18.3.1"
   },
   "dependencies": {
+    "axios": "^1.8.4",
     "lvlup-utils": "^0.0.2"
   }
 }
